@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MvcApp.Common
+build_property.ProjectDir = C:\Source\PublicRepos\cm-deadlock\MvcApp.Common\
