@@ -34,7 +34,7 @@ namespace MvcApp.Controllers
             {
                 // i was too lazy to add dependency injection... this will have to work for now
                 var scanner = VirusScanner.Default(ConfigurationManager.AppSettings["VirusScanner:ApiKey"]);
-                // scan and nothing happens
+                // works
                 await scanner.ScanAsync(file.InputStream);
                 // notification
                 TempData.Add("ScanResult", "File scanned successfully");
